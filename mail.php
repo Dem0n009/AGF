@@ -6,10 +6,10 @@ $sitename  = "Название Сайта";
 $subject   = "Новая заявка с сайта \"$sitename\"";
 
 $name = trim($_POST["name"]);
-$email = trim($_POST["email"]);
+$phone = trim($_POST["phone"]);
 
 $message = "
-E-mail: $email <br>
+E-mail: $phone <br>
 Имя: $name
 ";
 
